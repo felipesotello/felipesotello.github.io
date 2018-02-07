@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* Layout & Composition */
+
+.header {
+    border-bottom: 1px solid #F9F9F9;
+    padding: 0 16px;
+}
+
+.body {
+    padding: 128px 16px;
+}
+
+.footer {
+    padding: 0 16px;
+}
+
+.row + .row {
+    padding: 128px 0 0 0;
+}
+
+.flex-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+/* Typography */
+
+.text-1 {
+    color: #99CCFF;
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1;
+    margin: 0 0 32px 0;
+    text-transform: uppercase;
+}
+
+.text-2 {
+    color: #404040;
+    font-family: 'Prata';
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.text-3 {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 2;
+}
+
+.text-4 {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 1;
+}
+
+.text-5 {
+    color: #C0C0C0;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 1;
+}
+
+.text-5-hover {
+    color: #99CCFF;
+}
+
+.text-6 {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: .5;
+}
+
+/* Anchors */
+
+.anchor-1 {
+    border-bottom: 1px solid #404040;
+    color: #404040;
+    padding-bottom: 4px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.anchor-1:hover {
+    border-bottom: 1px solid #99CCFF;
+    color: #99CCFF;
+    padding-bottom: 4px;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.anchor-2 {
+    color: #404040;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.anchor-2:hover {
+    color: #99CCFF;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+/* Components */
+
+.tag-1 {
+    background-color: #99CCFF;
+    border-radius: 4px;
+    color: white;
+    font-family: "Work Sans";
+    font-size: 16px;
+    padding: 6px 8px;
+    transition: 400ms;
+}
+
+.tag-1:hover {
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.card-1 {
+    border-bottom: 1px solid #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    transition: 500ms;
+}
+
+.card-1:hover {
+    border-bottom: 1px solid #99CCFF;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+/* States */
+
+.color-avaiable {
+    color: #99CCFF;
+}
+
+.color-unavaiable {
+    color: #EB5757;
+}
+
+.hidden {
+    transition: 1s;
+    visibility: hidden;
+}
+
+.visible {
+    transition: 1s;
+    visibility: visible;
+}
+
+/* Case Study */
+
+.content p {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+/* Media */
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 920px) {
+    .text-2 {
+        font-size: 54px;
+    }
+
+    .text-3 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+}

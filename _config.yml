@@ -1,0 +1,11 @@
+safe:        false
+baseurl: /
+url: http://felipesotello.github.io
+
+name: felipesotello
+description: 'Product Designer'
+
+domain: felipesotello.github.io
+
+source:      .
+destination: ./_site

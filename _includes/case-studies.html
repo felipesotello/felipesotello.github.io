@@ -1,0 +1,17 @@
+{% for post in site.posts offset:1 %}
+    {% unless post.draft %}
+        <a href="{{ post.url }}">
+            <div class="card-1">
+                <h1 class="text-4">
+                    {{ post.title }}
+                </h1>
+                <p class="text-5">
+                    {{ post.description }}
+                </p>
+                <p class="text-5">
+                    View →
+                </p>
+            </div>
+        </a>
+    {% endunless %}
+{% endfor %}
