@@ -27,7 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .row + .row {
-    padding: 128px 0 0 0;
+    padding: 96px 0 0 0;
 }
 
 .flex-1 {
@@ -83,12 +83,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .text-6 {
-    color: #404040;
-    font-family: 'Work Sans';
-    font-size: 16px;
+    color: #E0E0E0;
+    font-family: 'Rubik';
+    font-size: 12px;
     font-weight: 700;
-    letter-spacing: 1px;
-    line-height: .5;
+    letter-spacing: 4px;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 /* Anchors */
@@ -144,7 +145,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 32px 0;
+    padding: 16px 0;
     transition: 500ms;
 }
 
