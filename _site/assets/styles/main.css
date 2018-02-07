@@ -74,8 +74,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .text-5 {
     color: #C0C0C0;
     font-family: 'Work Sans';
-    font-size: 16px;
-    line-height: 1;
+    font-size: 14px;
+    line-height: 2;
 }
 
 .text-5-hover {
@@ -197,6 +197,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .text-3 {
+        font-size: 18px;
+    }
+
+    .text-5 {
         font-size: 18px;
     }
 
