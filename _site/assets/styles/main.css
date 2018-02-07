@@ -27,7 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .row + .row {
-    padding: 64px 0 0 0;
+    padding: 48px 0 0 0;
 }
 
 .flex-1 {
@@ -56,8 +56,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 4px;
-    line-height: 36px;
-    margin: 0 0 32px 0;
+    line-height: 1;
+    margin: 0 0 16px 0;
     text-transform: uppercase;
 }
 
@@ -203,6 +203,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 @media screen and (min-width: 920px) {
+    .row + .row {
+        padding: 96px 0 0 0;
+    }
+
+    .text-1-cases {
+        line-height: 36px;
+    }
+
     .text-2 {
         font-size: 54px;
     }
