@@ -1,12 +1,14 @@
-{% for post in site.posts %}
-    <a class="anchor-2" href="{{ post.url }}">
-        <div class="card-1">
-            <h1 class="text-3">
-                {{ post.title }}
-            </h1>
-            <p class="text-5">
-                Read →
-            </p>
-        </div>
-    </a>
+{% for post in site.categories.cases %}
+
+<a class="anchor-2" href="{{ post.url }}">
+    <div class="card-1">
+        <h1 class="text-3">
+            {{ post.title }}
+        </h1>
+        <p class="text-5">
+            Read →
+        </p>
+    </div>
+</a>
+
 {% endfor %}

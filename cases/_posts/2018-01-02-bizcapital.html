@@ -1,0 +1,16 @@
+---
+layout: case-study
+category: cases
+permalink: /:categories/:title
+
+title: 'BizCapital'
+description: 'March 2017 - December 2017'
+overview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus blandit metus a suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.'
+role: 'Product Designer'
+---
+
+{% for post in site.categories[page.title] %}
+
+{% include projects.html %}
+
+{% endfor %}

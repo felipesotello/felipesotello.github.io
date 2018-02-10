@@ -1,11 +1,4 @@
-safe:        false
-baseurl: /
-url: http://felipesotello.github.io
+url: https://felipesotello.github.io/
 
-name: felipesotello
-description: 'Product Designer'
-
-domain: felipesotello.github.io
-
-source:      .
-destination: ./_site
+sass:
+    sass_dir: _sass
