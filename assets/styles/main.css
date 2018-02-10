@@ -69,12 +69,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .text-2-projects {
-    border-top: 1px solid #F9F9F9;
+    border-top: 1px solid #F0F0F0;
     color: #404040;
     font-family: 'Rubik';
     font-size: 16px;
     line-height: 1.5;
-    padding-top: 24px;
+    padding-top: 48px;
 }
 
 .text-3 {
@@ -222,7 +222,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
     .text-2-projects {
         font-size: 36px;
-        padding-top: 48px;
+        padding-top: 96px;
     }
 
     .text-3 {

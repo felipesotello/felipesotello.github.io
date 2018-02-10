@@ -11,7 +11,13 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="text-2">{{ page.title }}</h1>
-                <p class="text-5">{{ page.description }} {{ page.role }}</p>
+                <p class="text-5">{{ page.description }}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <img alt="" class="img-fluid" src="{{ page.cover }}" />
             </div>
         </div>
 
@@ -21,6 +27,15 @@
             </div>
             <div class="col-12 col-lg-8">
                 <p class="text-3">{{ page.overview }}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <p class="text-1-cases">Role</p>
+            </div>
+            <div class="col-12 col-lg-8">
+                <p class="text-3">{{ page.role }}</p>
             </div>
         </div>
 

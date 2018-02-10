@@ -7,6 +7,23 @@
 
 <div class="row">
     <div class="col-12 col-lg-4">
+        <p class="text-1-cases">Summary</p>
+    </div>
+    <div class="col-12 col-lg-8">
+        <p class="text-3">{{ post.summary }}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <p class="text-3">
+            <img alt="" class="img-fluid" src="{{ post.image-summary }}" />
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-4">
         <p class="text-1-cases">Opportunity</p>
     </div>
     <div class="col-12 col-lg-8">
@@ -34,18 +51,35 @@
 
 <div class="row">
     <div class="col-12 col-lg-4">
-        <p class="text-1-cases">Takeaways</p>
+        <p class="text-1-cases">Constraints</p>
     </div>
     <div class="col-12 col-lg-8">
-        <p class="text-3">{{ post.takeaways }}</p>
+        <p class="text-3">{{ post.constraints }}</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-12 col-lg-4">
-        <p class="text-1-cases">Summary</p>
+        <p class="text-1-cases">Solution</p>
     </div>
     <div class="col-12 col-lg-8">
-        <p class="text-3">{{ post.content }}</p>
+        <p class="text-3">{{ post.solution }}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <p class="text-3">
+            <img alt="" class="img-fluid" src="{{ post.image-summary }}" />
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-4">
+        <p class="text-1-cases">Takeaways</p>
+    </div>
+    <div class="col-12 col-lg-8">
+        <p class="text-3">{{ post.takeaways }}</p>
     </div>
 </div>
