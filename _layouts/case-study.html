@@ -2,11 +2,8 @@
 
 <div class="body">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-5"><a class="anchor-2" href="{{ site.url }}">← Back</a></p>
-            </div>
-        </div>
+
+        {% include back.html %}
 
         <div class="row">
             <div class="col-12">
@@ -32,7 +29,7 @@
 
         <div class="row">
             <div class="col-12 col-lg-4">
-                <p class="text-1-cases">Role</p>
+                <p class="text-1-cases">Overall Roles</p>
             </div>
             <div class="col-12 col-lg-8">
                 <p class="text-3">{{ page.role }}</p>
@@ -41,11 +38,8 @@
 
         {{ content }}
 
-        <div class="row">
-            <div class="col-12">
-                <p class="text-5"><a class="anchor-2" href="{{ site.url }}">← Back</a></p>
-            </div>
-        </div>
+        {% include back.html %}
+
     </div>
 </div>
 
