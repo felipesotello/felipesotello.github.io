@@ -3,7 +3,7 @@
 <div class="body">
     <div class="container">
 
-        {% include back.html %}
+{% include back.html %}
 
         <div class="row">
             <div class="col-12">
@@ -45,9 +45,33 @@
             </div>
         </div>
 
-        {{ content }}
+{% for post in site.categories[page.title] %}
 
-        {% include back.html %}
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-2-projects">{{ post.title }}</h1>
+                <p class="text-5">{{ post.platform }}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <p class="text-1-cases">Situation</p>
+            </div>
+            <div class="col-12 col-lg-8">
+                <p class="text-3">{{ post.situation }}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                {{ post.content }}
+            </div>
+        </div>
+
+{% endfor %}
+
+{% include back.html %}
 
     </div>
 </div>

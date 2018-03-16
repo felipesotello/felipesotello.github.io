@@ -1,0 +1,19 @@
+/* States */
+
+.color-avaiable {
+    color: #99CCFF;
+}
+
+.color-unavaiable {
+    color: #EB5757;
+}
+
+.hidden {
+    transition: 1s;
+    visibility: hidden;
+}
+
+.visible {
+    transition: 1s;
+    visibility: visible;
+}

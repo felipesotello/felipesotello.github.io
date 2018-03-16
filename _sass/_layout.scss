@@ -1,0 +1,33 @@
+/* Layout & Composition */
+
+.header {
+    border-bottom: 1px solid #F9F9F9;
+    padding: 0 16px;
+}
+
+.body {
+    padding: 128px 16px;
+}
+
+.footer {
+    padding: 0 16px;
+}
+
+.row + .row {
+    padding: 48px 0 0 0;
+}
+
+.flex-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+/* Media */
+
+@media screen and (min-width: 992px) {
+    .row + .row {
+        padding: 96px 0 0 0;
+    }
+}

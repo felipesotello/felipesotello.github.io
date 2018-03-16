@@ -1,0 +1,142 @@
+/* Typography */
+
+.text-1 {
+    color: #99CCFF;
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1;
+    margin: 0 0 32px 0;
+    text-transform: uppercase;
+}
+
+.text-1-cases {
+    color: #99CCFF;
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1;
+    margin: 0 0 16px 0;
+    text-transform: uppercase;
+}
+
+.text-2 {
+    color: #404040;
+    font-family: 'Prata';
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.text-2-projects {
+    border-top: 1px solid #F0F0F0;
+    color: #404040;
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 48px;
+}
+
+.text-3 {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 2;
+}
+
+.text-4 {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 1;
+}
+
+.text-5 {
+    color: #C0C0C0;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 2;
+}
+
+.text-5-hover {
+    color: #99CCFF;
+}
+
+.text-6 {
+    color: #E0E0E0;
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+/* Anchors */
+
+.anchor-1 {
+    border-bottom: 1px solid #404040;
+    color: #404040;
+    padding-bottom: 4px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.anchor-1:hover {
+    border-bottom: 1px solid #99CCFF;
+    color: #99CCFF;
+    padding-bottom: 4px;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.anchor-2 {
+    color: #404040;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.anchor-2:hover {
+    color: #99CCFF;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+@media screen and (min-width: 992px) {
+    .text-1-cases {
+        line-height: 36px;
+    }
+
+    .text-2 {
+        font-size: 54px;
+    }
+
+    .text-2-projects {
+        font-size: 36px;
+        padding-top: 96px;
+    }
+
+    .text-3 {
+        font-size: 18px;
+    }
+
+    .text-5 {
+        font-size: 18px;
+    }
+}
+
+/* Case Study */
+
+.content p {
+    color: #404040;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 2;
+}
+
+@media screen and (min-width: 992px) {
+    .content p {
+        font-size: 18px;
+    }
+}
