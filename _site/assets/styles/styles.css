@@ -33,7 +33,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* Media */
 @media screen and (min-width: 992px) {
   .row + .row {
-    padding: 96px 0 0 0; } }
+    padding: 48px 0 0 0; } }
 /* Typography */
 .text-1 {
   color: #99CCFF;
